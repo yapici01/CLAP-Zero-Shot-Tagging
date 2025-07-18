@@ -1,0 +1,46 @@
+{
+  "model": "CLAP DF-Weighted with SBERT (Alpha=0.7, Threshold=0.7)",
+  "alpha": 0.7,
+  "sbert_threshold": 0.7,
+  "sbert_model": "all-MiniLM-L6-v2",
+  "num_clips": 1528,
+  "total_semantic_hits": 740,
+  "total_exact_hits": 466,
+  "total_predictions": 15280,
+  "total_ground_truth": 8160,
+  "avg_precision_at_10": 0.04842931937172775,
+  "avg_recall": 0.08337408301413536,
+  "avg_f1_score": 0.058548309342210184,
+  "avg_semantic_hits_per_clip": 0.48429319371727747,
+  "avg_exact_hits_per_clip": 0.30497382198952877,
+  "overall_precision": 0.04842931937172775,
+  "overall_recall": 0.09068627450980392,
+  "overall_f1_score": 0.06313993174061434,
+  "semantic_hits_distribution": {
+    "0": 1158,
+    "2": 83,
+    "1": 185,
+    "3": 54,
+    "5": 13,
+    "4": 26,
+    "6": 5,
+    "7": 4
+  },
+  "exact_hits_distribution": {
+    "0": 1235,
+    "1": 180,
+    "3": 27,
+    "2": 71,
+    "4": 12,
+    "5": 3
+  },
+  "improvement_over_exact": 58.79828326180257,
+  "df_stats": {
+    "matched_tags": 1870,
+    "unmatched_tags": 0,
+    "min_df_score": 0.3661727489117187,
+    "max_df_score": 0.8451578882484714,
+    "mean_df_score": 0.43579359791108413,
+    "std_df_score": 0.0859063990895538
+  }
+}

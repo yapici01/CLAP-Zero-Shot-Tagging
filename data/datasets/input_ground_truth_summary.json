@@ -1,0 +1,20 @@
+{
+  "total_test_cases": 1528,
+  "avg_ground_truth_tags": 5.340314136125654,
+  "avg_total_tags": 8.340314136125654,
+  "min_ground_truth_tags": 2,
+  "max_ground_truth_tags": 12,
+  "sounds_filtered": {
+    "original_count": 10309,
+    "after_sound_id_filter": 3106,
+    "after_tag_count_filter": 1528
+  },
+  "tagsets": {
+    "rankst_tagset_size": 7712,
+    "clap_large_tagset_size": 4872,
+    "clap_tagset_size": 2021,
+    "tags_removed_for_clap_large": 2840,
+    "tags_removed_for_clap": 5691,
+    "difference_large_vs_regular": 2851
+  }
+}
